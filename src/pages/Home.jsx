@@ -212,27 +212,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIALS (placeholders) */}
-      <section className="section section-alt">
-        <div className="container">
-          <Reveal as="div" className="section-head">
-            <h2>What Parents Are Saying</h2>
-            <p>Real testimonials will be added here as they become available.</p>
-          </Reveal>
-          <div className="grid-3">
-            {[1, 2, 3].map((n) => (
-              <Reveal as="div" className="testimonial-card" delay={n * 60} key={n}>
-                <span className="placeholder-tag">Placeholder</span>
-                <p className="quote">
-                  "This space is reserved for a real parent testimonial. Replace this
-                  text once a testimonial is available."
-                </p>
-                <div className="author">Parent Name — Grade Level</div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* FREE TRIAL CTA */}
       <section className="section" style={{ paddingBottom: 0 }}>
