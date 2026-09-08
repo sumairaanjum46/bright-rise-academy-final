@@ -24,6 +24,9 @@ export default function BookTrial() {
             Tell us a bit about your student and we'll get back to you to arrange a
             free trial session.
           </p>
+          <p style={{ fontWeight: 600, color: "#16264D" }}>
+            Classes start at just $15/hr.
+          </p>
         </div>
       </section>
 
