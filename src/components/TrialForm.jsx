@@ -42,6 +42,9 @@ export default function TrialForm({ submitLabel = "Request Free Trial" }) {
     if (!response.ok) {
       throw new Error("Failed to submit form");
     }
+    if (typeof window.gtag_report_conversion === "function") {
+  window.gtag_report_conversion();
+}
 
     setSubmitted(true);
   } catch (error) {
